@@ -1,0 +1,28 @@
+body{
+    background-color: #F2B705;
+    font-family: 'Cabin Sketch';font-size: 22px;
+}
+#table1{
+    /*border: solid black;*/
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+th{
+    font-size: 60px;
+    border: solid #F2B705;
+    width: 50px;
+    height: 200px;
+}
+#space{
+    background-color:  #200F8C;
+}

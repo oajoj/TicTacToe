@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>    
+    <link href='https://fonts.googleapis.com/css?family=Cabin Sketch' rel='stylesheet'>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+<body>
+    <h1>Super Jogo da Velha</h1>
+    <div>
+        <table id="table1">
+            <tr id="line1">
+                <th id="space" onclick="interaction(this)"></th>
+                <th id="space" onclick="interaction(this)"></th>
+                <th id="space" onclick="interaction(this)"></th>
+            </tr>
+            <tr id="line2">
+                <th id="space" onclick="interaction(this)"></th>
+                <th id="space" onclick="interaction(this)"></th>
+                <th id="space" onclick="interaction(this)"></th>
+            </tr>
+            <tr id="line3">
+                <th id="space" onclick="interaction(this)"></th>
+                <th id="space" onclick="interaction(this)"></th>
+                <th id="space" onclick="interaction(this)"></th>
+            </tr>
+        </table>
+    </div>
+
+    <h1 id="final_msg"></h1>
+    <div id="botao">
+        <button class="btn btn-outline-primary" id="reiniciar" style="display: none" onclick="refresh()">Clique para jogar novamente!</button>
+    </div>
+
+</body>
+
+</html>
