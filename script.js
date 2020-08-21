@@ -233,7 +233,7 @@ function verify() {
         document.getElementById("final_msg").innerHTML = "O jogador " + player + " venceu!";
         document.getElementById("reiniciar").style.display = "inline";
     }
-    if (cont >= 9) {
+    if (cont > 9) {
         document.getElementById("final_msg").innerHTML = "Empate";
         document.getElementById("reiniciar").style.display = "inline";
     }
