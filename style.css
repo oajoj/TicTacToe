@@ -1,28 +1,35 @@
-body{
+body {
     background-color: #F2B705;
-    font-family: 'Cabin Sketch';font-size: 22px;
+    font-family: 'Cabin Sketch';
+    font-size: 22px;
 }
-#table1{
+
+#table1 {
     /*border: solid black;*/
     width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#botao{
+#botao {
     display: flex;
     justify-content: center;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
-th{
+th {
     font-size: 60px;
     border: solid #F2B705;
-    width: 50px;
+    /*width: 50px;
     height: 200px;
+    */
+    width: 40vw;
+    height: 30vh;
 }
-#space{
-    background-color:  #200F8C;
+
+#space {
+    background-color: #200F8C;
 }
