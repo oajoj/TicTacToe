@@ -32,7 +32,7 @@ function verify() {
         for (var i = 0; i <= 2; i += 1) {
             document.getElementById("table1").rows[0].cells.item(i).style.color = "#F2B705";
         }
-
+        
 
     }
 
@@ -233,7 +233,7 @@ function verify() {
         document.getElementById("final_msg").innerHTML = "O jogador " + player + " venceu!";
         document.getElementById("reiniciar").style.display = "inline";
     }
-    if (cont > 9) {
+    if (cont == 9 && terminou != true) {
         document.getElementById("final_msg").innerHTML = "Empate";
         document.getElementById("reiniciar").style.display = "inline";
     }
